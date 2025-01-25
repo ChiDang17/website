@@ -1,0 +1,77 @@
+#topBar {
+    background-color: #01007e;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#navBar {
+    background-color: #bfbfbf;
+}
+
+#headerTitle, #bio {
+    color: white;
+    font-family: "Pixelify Sans";
+    margin: 0px;
+    position: relative;
+    bottom: 6.5px;
+}
+
+#aboutText, #projectText, #resumeText, #contactText {
+    color: black;
+    font-family: "Pixelify Sans";
+    margin: 5px;
+    padding-right: 15px;
+}
+
+#initialLogo {
+    width: 25px;
+    height: 22px;
+    padding-right: 6px;
+    position: relative;
+    bottom: 2px;
+}
+
+#windowButtons {
+    width: 90px;
+    height: 26px;
+    float: right;
+}
+
+#sidebarPic {
+    height: 100%;
+    width: auto;
+}   
+
+#bottomBarPic {
+    /* height: auto;
+    max-width: 100%;
+    position: relative;
+    top: -4px; */
+    height: auto;
+    width: 100%;
+}
+
+#content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+  
+#main {
+    flex: 1;
+    background-color: grey;
+    height: 100vh;
+    overflow-y: auto; /* Add scrolling if content overflows */
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+#nameIntro {
+    color: black;
+    font-family: "Pixelify Sans";
+}
